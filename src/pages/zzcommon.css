@@ -1,0 +1,7 @@
+.section-heading {
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 15px;
+    font-size: clamp(1rem, 3vw, 2rem);
+    border-bottom: 1px solid white;
+  }

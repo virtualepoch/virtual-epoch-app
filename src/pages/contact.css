@@ -1,0 +1,129 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+.profile-card {
+  max-width: 500px;
+  margin: 33px 0;
+  padding: 12px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 2px aliceblue;
+  background: linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.profile-logo {
+  width: 100px;
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+}
+.contact-link-row {
+  max-width: 500px;
+  height: fit-content;
+  margin: 33px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact-link {
+  width: 55px;
+  height: 55px;
+  margin: 22px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 2px aliceblue;
+  background: linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.contact-link p {
+  visibility: hidden;
+}
+.github-link {
+  background: url(../icons/github-brands.svg) 50% 50% / 70% 70% no-repeat, linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.linkedin-link {
+  background: url(../icons/linkedin-brands.svg) 50% 50% / 70% 70% no-repeat, linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.email-link {
+  background: url(../icons/envelope-solid.svg) 50% 50% / 60% 60% no-repeat, linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.resume-page-link {
+  width: 100px;
+  height: 130px;
+  margin: 33px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  background: url(../images/craig-kaufman-resume-7-2022-w100.png) 0 /100% 100%;
+}
+.resume-page-link p {
+  visibility: visible;
+  position: relative;
+  top: -65%;
+  font: italic 22px/33px sans-serif;
+  color: aliceblue;
+}
+#resume-page {
+  max-width: 1200px;
+  height: calc(100vh - 55px);
+  position: fixed;
+  top: 55px;
+  left: 0;
+  right: 0;
+  z-index: 1111;
+  margin: auto;
+  padding-bottom: 111px;
+  display: none;
+  flex-direction: column;
+  background: white;
+  overflow-y: auto;
+}
+#resume-page.open {
+  display: flex;
+}
+.download-row {
+  width: 100%;
+  height: fit-content;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resume-download-link {
+  width: 55px;
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: url(../icons/file-pdf-solid.svg) 50% 50% / 60% 60% no-repeat;
+  box-shadow: 0 3px 5px 3px rgb(0, 0, 0, 0.3);
+}
+.resume-download-link p {
+  visibility: hidden;
+}
+.resume-close-btn {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px 3px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.resume-png {
+  width: 100%;
+}
+.w3c-css-icon {
+  width: 85px;
+  height: 33px;
+  margin: 33px 0 77px 0;
+  border: 1px solid aliceblue;
+  box-shadow: 0 0 7px 2px aliceblue;
+  background: none;
+}
