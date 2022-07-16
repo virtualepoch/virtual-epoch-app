@@ -28,27 +28,27 @@ export default function Header() {
           <h1 className="site-title">Virtual Epoch</h1>
         </Link>
         <div className="right-side-header">
-          <nav className="main-nav" ref={mainNav}>
-            <ul>
-              <CustomLink className="link1" onClick={closeMainNav} to={"/"}>
-                HOME
-              </CustomLink>
-              <CustomLink className="link2" onClick={closeMainNav} to={"/about"}>
-                ABOUT
-              </CustomLink>
-              <CustomLink className="link3" onClick={closeMainNav} to={"/projects"}>
-                PROJECTS
-              </CustomLink>
-              <CustomLink className="link4" onClick={closeMainNav} to={"/contact"}>
-                CONTACT
-              </CustomLink>
-            </ul>
-          </nav>
           <div className="nav-btn" ref={navBtn} onClick={openCloseMainNav}>
             <div className="nav-btn-bars close-anim"></div>
           </div>
         </div>
       </div>
+      <nav className="main-nav" ref={mainNav}>
+        <ul>
+          <CustomLink className="link1" onClick={closeMainNav} to={"/"}>
+            HOME
+          </CustomLink>
+          <CustomLink className="link2" onClick={closeMainNav} to={"/about"}>
+            ABOUT
+          </CustomLink>
+          <CustomLink className="link3" onClick={closeMainNav} to={"/projects"}>
+            PROJECTS
+          </CustomLink>
+          <CustomLink className="link4" onClick={closeMainNav} to={"/contact"}>
+            CONTACT
+          </CustomLink>
+        </ul>
+      </nav>
     </header>
   );
 }
