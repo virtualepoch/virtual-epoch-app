@@ -46,9 +46,9 @@ export default function Contact() {
               X
             </div>
             <p>Click the button below to download Craig's resume in PDF format.</p>
-            <a href="../images/craig-kaufman-resume-7-2022.pdf" download>
+            <Link to="/files/craig-kaufman-resume-7-2022.pdf" target="_blank" download onClick={openDownloadPrompt}>
               DOWNLOAD-PDF
-            </a>
+            </Link>
           </div>
           <div className="resume-close-btn" onClick={openResumePage}>
             X
