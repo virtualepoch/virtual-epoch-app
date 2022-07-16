@@ -57,11 +57,9 @@
 }
 .page-container {
   max-width: 1200px;
-  min-height: 100vh;
   margin: auto;
   padding: 50px 12px;
   position: relative;
-  background: inherit;
   overflow-x: hidden;
 }
 .action-btn-link {

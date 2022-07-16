@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="home-page">
+    <section className="home">
       <h1 className="section-main-heading" ref={mainHeading}>
         Web Applications
       </h1>

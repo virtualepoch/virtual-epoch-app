@@ -92,16 +92,67 @@
   align-items: center;
   justify-content: space-between;
 }
-.resume-download-link {
+.resume-download-btn {
   width: 55px;
   height: 55px;
   border: 1px solid black;
   border-radius: 10px;
   background: url(../icons/file-pdf-solid.svg) 50% 50% / 60% 60% no-repeat;
   box-shadow: 0 3px 5px 3px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
 }
-.resume-download-link p {
+.resume-download-btn p {
   visibility: hidden;
+}
+.resume-download-prompt {
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  position: fixed;
+  top: 140px;
+  left: 0;
+  right: 0;
+  z-index: 88888888;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 2px black;
+  background: linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
+}
+.resume-download-prompt.open{
+  display: flex;
+}
+.close-prompt-btn {
+  width: 40px;
+  height: 40px;
+  margin: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.resume-download-prompt p {
+  visibility: visible;
+}
+.resume-download-prompt a {
+  width: fit-content;
+  height: 40px;
+  padding: 0 8px;
+  border: 3px solid rgba(19, 192, 255, 0.5);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset -2px 2px 5px 2px rgb(255, 255, 255, 0.7), -1px 3px 5px 2px rgb(0, 0, 0, 0.7);
+  background: radial-gradient(ellipse at 60% 20%, white 1%, blue 70%);
 }
 .resume-close-btn {
   width: 55px;

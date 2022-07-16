@@ -11,6 +11,12 @@ export default function Contact() {
     resumePage.current.classList.toggle("open");
   }
 
+  const resumeDownloadPrompt = useRef(null);
+
+  function openDownloadPrompt() {
+    resumeDownloadPrompt.current.classList.toggle("open");
+  }
+
   return (
     <section className="contact">
       <h1 className="section-heading">Contact</h1>
@@ -34,9 +40,16 @@ export default function Contact() {
       </a>
       <div id="resume-page" ref={resumePage}>
         <div className="download-row">
-          <a className="resume-download-link" href="../images/craig-kaufman-resume-7-2022.pdf">
-            <p>download-pdf</p>
-          </a>
+          <div className="resume-download-btn" onClick={openDownloadPrompt}></div>
+          <div className="resume-download-prompt" ref={resumeDownloadPrompt}>
+            <div className="close-prompt-btn" onClick={openDownloadPrompt}>
+              X
+            </div>
+            <p>Click the button below to download Craig's resume in PDF format.</p>
+            <a href="../images/craig-kaufman-resume-7-2022.pdf" download>
+              DOWNLOAD-PDF
+            </a>
+          </div>
           <div className="resume-close-btn" onClick={openResumePage}>
             X
           </div>
