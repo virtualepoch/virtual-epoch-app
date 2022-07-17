@@ -1,15 +1,17 @@
 .about {
   min-height: 100vh;
-  background: linear-gradient(transparent, black 50%);
-}
-.about p {
-  padding: 22px 0;
 }
 .about-content {
   max-width: 1200px;
   min-height: 100%;
   margin: 0 auto;
   padding: 20px;
+}
+.about-content p {
+  margin: 33px 0;
+  padding: 12px;
+  background: linear-gradient(to right, black, rgb(0, 0, 0, 0), black);
+border-radius: 12px;
 }
 .pyramid-container {
   max-width: 1200px;
@@ -72,4 +74,5 @@
   background-image: radial-gradient(transparent, black 70%), repeating-conic-gradient(from 45deg, rgb(192, 192, 192) 0deg 90deg, rgb(255, 255, 255) 90deg 180deg);
   background-size: 100%;
   transform: rotateX(90deg) translateX(-500px) translateZ(417px);
+  box-shadow: 0 0 400px 200px black;
 }
