@@ -1,17 +1,18 @@
-.about {
-  min-height: 100vh;
-}
 .about-content {
   max-width: 1200px;
   min-height: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 .about-content p {
-  margin: 33px 0;
-  padding: 12px;
-  background: linear-gradient(to right, black, rgb(0, 0, 0, 0), black);
-border-radius: 12px;
+  margin: 20px 0;
+  padding: 10px;
+  background: linear-gradient(to right, black, transparent);
+  border-radius: 12px;
+}
+.about-content .inquire-statement{
+  text-align: center;
+  background: linear-gradient(to right,transparent,black,transparent);
 }
 .pyramid-container {
   max-width: 1200px;

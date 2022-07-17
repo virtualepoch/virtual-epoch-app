@@ -18,16 +18,24 @@ export default function Home() {
 
   return (
     <section className="home">
-      <h1 className="section-main-heading" ref={mainHeading}>
+      <h1 className="home-main-heading" ref={mainHeading}>
         Web Applications
       </h1>
       <div className="home-heading-container">
-        <h2 id="h2" ref={h2}>Design</h2>
-        <h2 id="h3"ref={h3}>Development</h2>
+        <h2 id="h2" ref={h2}>
+          Design
+        </h2>
+        <h2 id="h3" ref={h3}>
+          Development
+        </h2>
       </div>
       <div className="home-heading-container">
-        <h2 id="h4" ref={h4}>Customization</h2>
-        <h2 id="h5" ref={h5}>Optimization</h2>
+        <h2 id="h4" ref={h4}>
+          Customization
+        </h2>
+        <h2 id="h5" ref={h5}>
+          Optimization
+        </h2>
       </div>
       <Link className="action-btn-link" to={"/about"}>
         ABOUT

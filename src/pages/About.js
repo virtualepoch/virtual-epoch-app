@@ -15,7 +15,7 @@ export default function About() {
         <p>&gt; Dynamic apps created with React.js</p>
         <p>&gt; Guarantee all code follows current W3C Standards and Guidelines</p>
         <p>&gt; Search Engine Optimization</p>
-        <p>If you'd like to inquire into our services please press the 'Contact' link on the next page. Thanks for the visit!</p>
+        <p className="inquire-statement">If you'd like to inquire into our services please press the 'Contact' link on the next page. Thanks for the visit!</p>
 
         <div className="pyramid-container">
           <div className="pyramid-wrapper">

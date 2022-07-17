@@ -23,11 +23,6 @@
   border-radius: 8px;
   overflow: hidden;
 }
-@media (max-width: 777px) {
-  .action-btn {
-    bottom: 3px;
-  }
-}
 .action-btn::before {
   content: "";
   width: 400px;
@@ -81,7 +76,10 @@
   justify-content: center;
 }
 @media (max-width: 777px) {
+  .action-btn {
+    bottom: 0;
+  }
   .action-btn-link {
-    bottom: 3px;
+    bottom: 0;
   }
 }
