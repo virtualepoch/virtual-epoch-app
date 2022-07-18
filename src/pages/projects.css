@@ -3,13 +3,6 @@
   flex-direction: column;
   text-align: center;
 }
-.javascriptive-link {
-  margin: 50px auto;
-  padding: 3px 10px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 20px;
-  background: linear-gradient(to top right, black, rgb(106, 106, 106), black);
-}
 .project-card {
   margin: 33px 0;
   padding: 12px;
@@ -19,27 +12,31 @@
   background: linear-gradient(to top right, black, rgb(124, 124, 124), black, rgb(158, 158, 158));
 }
 .project-card h2 {
-  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 10px 30px;
+  background: radial-gradient(ellipse at 50% 50%, rgb(192, 192, 192, 0.5), rgb(192, 192, 192, 0.3), transparent 50%);
 }
 .project-card p {
-  padding: 30px 15px;
+  margin-bottom: 20px;
   line-height: 25px;
 }
 .project-image-link-container {
   width: fit-content;
   height: fit-content;
-  margin: 40px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .project-image {
-  width: 300px;
-  border-radius: 5px;
+  width: 100%;
   box-shadow: 0 0 10px 5px black;
 }
 .project-image-2 {
-  width: 100%;
+  width: 300px;
+  border-radius: 5px;
 }
 .project-link {
   width: 100px;
@@ -50,6 +47,5 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background: rgb(34, 96, 162);
-  /* border: solid yellow; */
+  background: linear-gradient(rgb(0, 255, 255, 0.8), rgb(0, 0, 128, 0.8));
 }

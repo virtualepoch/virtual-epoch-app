@@ -15,18 +15,18 @@ export default function Projects() {
       <div className="project-card">
         <h2>www.JavaScriptive.com</h2>
         <div className="project-image-link-container">
-          <img className="project-image-2" src={javascriptive} alt="javascriptive-website"></img>
+          <img className="project-image" src={javascriptive} alt="javascriptive-website"></img>
           <a className="project-link" href="https://javascriptive-app.vercel.app/" target="_blank" rel="noopener noreferrer">
             VISIT
           </a>
         </div>
-        <p>JavaScriptive—a JavaScript tutorial site. This is a work in progress and will eventually be filled with HTML, CSS, and JavaScript tutorials, lessons, and cool coding projects to work along with.</p>
+        <p>JavaScriptive—a JavaScript and CSS tutorial site. This project is a single page application created with ReactJS. It is still being expanded upon.</p>
       </div>
 
       <div className="project-card">
         <h2>Website for Pool Service Company</h2>
         <div className="project-image-link-container">
-          <img className="project-image" src={idahomeserv} alt="idahomeserv website"></img>
+          <img className="project-image project-image-2" src={idahomeserv} alt="idahomeserv website"></img>
           <a className="project-link" href="https://idahomeservpools.vercel.app/" target="_blank" rel="noopener noreferrer">
             VISIT
           </a>
@@ -37,13 +37,13 @@ export default function Projects() {
       <div className="project-card">
         <h2>Templates for Help Center</h2>
         <div className="project-image-link-container">
-          <img className="project-image-2" src={helpcenter} alt="helpcenter website template"></img>
+          <img className="project-image" src={helpcenter} alt="helpcenter website template"></img>
           <a className="project-link" href="https://jacob-help-center.vercel.app/" target="_blank" rel="noopener noreferrer">
             VISIT
           </a>
         </div>
         <div className="project-image-link-container">
-          <img className="project-image-2" src={jaycom} alt="helpcenter website template 2"></img>
+          <img className="project-image" src={jaycom} alt="helpcenter website template 2"></img>
           <a className="project-link" href="https://jaycom.vercel.app/" target="_blank" rel="noopener noreferrer">
             VISIT
           </a>
@@ -55,7 +55,7 @@ export default function Projects() {
         <h2>Retail Site Template for GoGetterz Clothing</h2>
         <div className="project-images-container">
           <div className="project-image-link-container">
-            <img className="project-image-2" src={gogetterz} alt="gogetterz retail site"></img>
+            <img className="project-image" src={gogetterz} alt="gogetterz retail site"></img>
             <a className="project-link" href="https://gogetterz.vercel.app/" target="_blank" rel="noopener noreferrer">
               VISIT
             </a>
@@ -67,7 +67,7 @@ export default function Projects() {
         <h2>Isometric Sprite Video Game</h2>
         <div className="project-images-container">
           <div className="project-image-link-container">
-            <img className="project-image" src={lightskull} alt="light skull video game"></img>
+            <img className="project-image project-image-2" src={lightskull} alt="light skull video game"></img>
             <a className="project-link" href="https://light-skull.vercel.app/" target="_blank" rel="noopener noreferrer">
               VISIT
             </a>

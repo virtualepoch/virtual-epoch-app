@@ -22,7 +22,7 @@ export default function Contact() {
       <h1 className="section-heading">Contact</h1>
       <p className="profile-card">
         <img className="profile-logo" src={veLogo200} alt="site-logo" />
-        Hi, my name is Craig Kaufman. I created this website and the projects. I'm currently looking for a position in Front-End Web Development. I have over three years of experience working with HTML, CSS, and JavaScript. My first experience was back in 2003 when I took an HTML / Styling class in highschool. While that provided a foundation it's really been the last three years where I've grown the most as a web developer. I've now made dozens of web apps and provide pro bono assistance to friends with their own hobby projects. I've made a few projects with Reactjs as well as with the SvelteKit compiler. You can find some of my projects at the GitHub link below.
+        Hi, my name is Craig Kaufman. I created this website and the projects. I'm currently looking for a position in Front-End Web Development. I have over three years of experience working with HTML, CSS, and JavaScript. My first experience was back in 2003 when I took an HTML / Styling class in highschool. While that provided a foundation it's really been the last three years where I've grown the most as a web developer. I've now made dozens of web apps and provide pro bono assistance to friends with their own hobby projects. I've made a few projects with ReactJS as well as with the SvelteKit compiler. You can find some of my projects at the GitHub link below.
       </p>
       <div className="contact-link-row">
         <a className="contact-link github-link" href="https://github.com/virtualepoch">

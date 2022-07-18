@@ -10,9 +10,9 @@
   background: linear-gradient(to right, black, transparent);
   border-radius: 12px;
 }
-.about-content .inquire-statement{
+.about-content .inquire-statement {
   text-align: center;
-  background: linear-gradient(to right,transparent,black,transparent);
+  background: linear-gradient(to right, transparent, black, transparent);
 }
 .pyramid-container {
   max-width: 1200px;
