@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <section className="home">
-      <h1 className="home-main-heading" ref={mainHeading}>
+      <h1 className="section-heading home-heading" ref={mainHeading}>
         Web Applications
       </h1>
       <div className="home-heading-container">

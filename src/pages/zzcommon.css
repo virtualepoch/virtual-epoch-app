@@ -3,6 +3,7 @@
   margin: 20px auto;
   padding: 8px 15px;
   font-size: clamp(1.1rem, 3vw, 1.8rem);
-  border-bottom: 1px solid white;
-  background: linear-gradient(transparent 80%, rgb(255, 255, 255, 0.5));
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  background: linear-gradient(to right, rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.05) 20% 80%, rgb(255, 255, 255, 0.3));
 }
