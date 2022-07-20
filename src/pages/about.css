@@ -5,13 +5,42 @@
   padding: 20px 0;
 }
 .about-content p {
-  margin: 20px 0;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 10px;
+}
+.text-box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
   background: linear-gradient(to right, black, transparent);
   border-radius: 12px;
 }
-.about-content .inquire-statement {
+.text-box::before {
+  content: ">";
+  margin-right: 7px;
+}
+/* .text-box::after {
+  content: "";
+  width: 15px;
+  height: 3px;
+  position: relative;
+  top: 10px;
+  background: white;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  30% {
+    background: none;
+  }
+  70% {
+    background: none;
+  }
+} */
+.about-content .mission-statement {
   text-align: center;
+  padding: 20px 0;
   background: linear-gradient(to right, transparent, black, transparent);
 }
 .pyramid-container {
