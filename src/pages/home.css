@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-around;
   transition: 0.5s ease-in-out 1s;
+  text-align: center;
 }
 .home-heading {
   position: relative;
@@ -16,46 +17,36 @@
   top: 0;
 }
 .home h2 {
+  width: 100vw;
+  margin: 10px auto;
+  padding: 5px 20px;
+  position: relative;
+  z-index: 11;
+  background: radial-gradient(ellipse at 50% 50%, rgb(255, 255, 255, 0.3), transparent 50%);
   font-size: clamp(1.1rem, 1vw, 2rem);
 }
 #h2,
 #h4 {
-  width: fit-content;
-  position: relative;
   right: -444vw;
-  z-index: 11;
-  margin: 10px auto;
-  padding: 5px 20px;
-  border-left: 1px solid white;
-  border-bottom: 1px solid rgb(61, 61, 61);
-  background: linear-gradient(to right, rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.1), transparent 80%);
 }
 #h3,
 #h5 {
-  width: fit-content;
-  position: relative;
   left: -444vw;
-  z-index: 11;
-  margin: 10px auto;
-  padding: 5px 20px;
-  border-right: 1px solid white;
-  border-top: 1px solid rgb(61, 61, 61);
-  background: linear-gradient(to left, rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.1), transparent 80%);
 }
 #h2.load {
-  transition: 1s ease 0.3s;
+  transition: 3s ease;
   right: 0;
 }
 #h3.load {
-  transition: 1s ease 0.8s;
+  transition: 3s ease;
   left: 0;
 }
 #h4.load {
-  transition: 1s ease 1.3s;
+  transition: 3s ease 1s;
   right: 0;
 }
 #h5.load {
-  transition: 1s ease 1.8s;
+  transition: 3s ease 1s;
   left: 0;
 }
 @media (max-height: 500px) {
