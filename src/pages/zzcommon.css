@@ -2,8 +2,7 @@
   width: fit-content;
   margin: 20px auto;
   padding: 8px 15px;
-  font-size: clamp(1.1rem, 3vw, 1.8rem);
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  background: linear-gradient(to right, rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.05) 20% 80%, rgb(255, 255, 255, 0.3));
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  border-bottom: 1px solid white;
+  background: radial-gradient(ellipse at 50% 110%, rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.1), transparent 70%);
 }
