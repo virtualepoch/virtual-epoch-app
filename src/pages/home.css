@@ -13,7 +13,7 @@
   top: -100%;
 }
 .home-heading.load {
-  transition: 0.8s ease-in-out;
+  transition: 1.5s ease;
   top: 0;
 }
 .home h2 {
@@ -34,19 +34,19 @@
   left: -444vw;
 }
 #h2.load {
-  transition: 3s ease;
+  transition: 2.5s ease 0.5s;
   right: 0;
 }
 #h3.load {
-  transition: 3s ease;
+  transition: 2.5s ease 0.5s;
   left: 0;
 }
 #h4.load {
-  transition: 3s ease 1s;
+  transition: 2.5s ease 2s;
   right: 0;
 }
 #h5.load {
-  transition: 3s ease 1s;
+  transition: 2.5s ease 2s;
   left: 0;
 }
 @media (max-height: 500px) {

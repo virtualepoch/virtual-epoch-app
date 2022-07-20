@@ -23,7 +23,7 @@
 .site-logo {
   width: 40px;
   height: 40px;
-  margin: 0 10px;
+  margin: 10px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: 0 0 3px 1px white inset;
@@ -82,7 +82,7 @@
 /* // MAIN NAV BOX ///////////////////////// */
 .main-nav {
   max-width: 1200px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 50px);
   position: fixed;
   top: -444%;
   left: 0;
